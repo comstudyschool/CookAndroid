@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
                     // itemList 필드에 RecyclerView에 표시될 아이템 데이터를 초기화
                     // 나중에 실제로 ArrayList 객체를 new 연산자로 생성 해야 함.
-                    itemList = Arrays.asList("Item 1", "Item 2", "Item 3", "Item 4");
+                    //itemList = Arrays.asList("Item 1", "Item 2", "Item 3", "Item 4");
 
                     // MyAdapter 생성자에 itemList를 전달하여 어댑터가 사용할 데이터를 설정
                     adapter = new MyAdapter(posts);
